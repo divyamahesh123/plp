@@ -1,0 +1,304 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #F5F5F5;
+}
+
+.container {
+  flex: 1;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 1px;
+  justify-content: space-between;
+
+}
+
+.login-register {
+  display: flex;
+  align-items: center;
+}
+
+.login-register a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+.login-register a:first-child {
+  margin-right: 5px;
+}
+
+.location-symbol img {
+  width: 20px;
+  margin-top:10px;
+  margin-right:1000px;
+}
+
+.nav {
+  
+  display: flex;
+  align-items: center;
+   /* Centering using margin */
+  
+}
+.nav a
+{
+text-align:center;
+color:black;
+text-decoration:none;
+
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+}
+
+.nav li {
+ 
+  margin-right: 20px;
+}
+
+.nav li:last-child {
+  
+  margin-right: 0;
+}
+
+.product-container {
+  width: 100%;
+  display: flex;
+}
+
+.product {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0 1%;
+}
+
+.product img {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.product-info {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.product-info h3 {
+  margin: 0;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding: 20px;
+}
+
+.footer .logo a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer .logo img {
+  width: 20px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align icons to the right */
+  width: 100%; /* Make the icons take the remaining width */
+  margin:5px;
+}
+
+.icons img {
+  width: 20px;
+  margin-left: 100px;
+  flex: 1;
+}
+.black-button {
+      background-color: black;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      display: inline-flex;
+      align-items: center;
+      cursor: pointer;
+      margin-top: 20px; /* Adjust margin as needed */
+    }
+
+    .black-button img {
+      margin-left: 10px;
+      width: 16px; /* Adjust the spacing between text and icon */
+    }
+ .vertical-links {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      align-items: flex-start; /* Align links to the left */
+    }
+
+    .vertical-links a {
+      text-decoration: none;
+      color: black; /* Change link color */
+      margin-bottom: 10px; /* Adjust the spacing between the links */
+      font-size: 14px; /* Adjust font size */
+    }
+.additional-vertical-links {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      margin-left: 20px; /* Adjust margin for spacing */
+      align-items: flex-start; /* Align links to the left */
+    }
+
+    .additional-vertical-links a {
+      text-decoration: none;
+      color: black; /* Change link color */
+      margin-bottom: 10px; /* Adjust the spacing between the links */
+      font-size: 14px; /* Adjust font size */
+    }
+ .link-containers {
+      display: flex;
+    }
+
+    .link-containers .vertical-links,
+    .link-containers .additional-vertical-links {
+      margin-right: 20px; /* Adjust the spacing between the two sets of links */
+    }
+.image-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust image size as needed */
+            gap: 5px; /* Adjust the gap between images */
+        }
+
+        /* Add CSS styles for individual images here */
+        .image {
+            max-width: 100%;
+            height: auto;
+        }
+.dropdown {
+      position: absolute;
+      left: 0; /* Position it to the left */
+      display: inline-block;
+      margin-right: 20px; /* Adjust spacing */
+    }
+.copyright {
+  color: white;
+  float:right;
+}
+.rating .star {
+  color: gold; /* Change star color to gold */
+}
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.currency-dropdown {
+  content: "\25BC";
+  color: white;
+  margin-right: 20px;
+}
+
+.currency-dropdown button {
+  color: white;
+  padding: 5px 10px;
+}
+.currency-dropdown button::after {
+  content: "\25BC"; /* Unicode character for down arrow */
+  margin-left: 5px;
+  color: white; /* Make the dropdown symbol white */
+}
+.currency-dropdown1 {
+  content: "\25BC";
+  color: black;
+  margin-right: 20px;
+}
+
+.currency-dropdown1 button {
+  color: black;
+  padding: 5px 10px;
+}
+.currency-dropdown1 button::after {
+  content: "\25BC"; /* Unicode character for down arrow */
+  justify-content: flex-end;
+  margin-left: 5px;
+  color: black; /* Make the dropdown symbol white */
+}
+.filter-and-sort {
+  display: flex;
+  justify-content: space-between; /* Align filter and sort to opposite corners */
+  align-items: center;
+  margin-top: 20px;
+}
+
+.sort-dropdown {
+  margin-left: 20px; /* Adjust spacing between filter and sort */
+}
+.sort-dropdown .dropbtn {
+  background-color: transparent;
+  color: black; /* Adjust the color */
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.separator {
+      border: 1px solid #ccc; /* Define the border style for the separator */
+      margin: 20px 0; /* Adjust the margin as needed to position the separator */
+    }
+
+.separator1 {
+  width: 2px; /* Width of the vertical line */
+  height: 40px; /* Height of the vertical line */
+  background-color: black; /* Color of the vertical line */ 
+  margin-right: 900px;
+  margin-top: 20px;
+}
+.imagex {
+      width: 100%; /* Adjust the width as needed */
+      height: auto; /* Maintain aspect ratio */
+    }
+.imagex img {
+  width: 100%; /* Set the image to 100% width */
+  height: auto; /* Maintain aspect ratio */
+}
+.stores {
+  margin-top:20px;
+
+   /* Adjust the margin to move it to the left */
+}
+#s
+{
+text-align:left;
+}
+.categories{
+margin-left: 10px;
+}
+
+.logo1 {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically */
+}
+
+/* Adjust the margin or padding as needed */
+.logo1 img {
+  margin-right: 100px; /* Add margin between the logo and nav */
+}
