@@ -1,83 +1,357 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>My resume</title>
-<link href="change.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Showcase</title>
+  <link rel="stylesheet" href="zak.css"> <!-- Include the external CSS file -->
 </head>
 <body>
-<div id="top">
-<li>DIVYA M</li>
-<li>Intern at cognizant</li>
-</div>
-<p id="heading"> contact details </p>
-<div id="contact">
-<li>Ph.No:93615589765</li>
-<li>GMAIL:divyamahesh@gmail.com</li>
-<li><span id="yes">in</span>: <a href="https://www.linkedin.com/in/divya-mahesh-0817631ab">https://www.linkedin.com/in/divya-mahesh-0817631ab</a></li>
-</div>
-<h6 class="one">Objective :</h6>
-<p class="para">
-I am an enthusiastic programmer and I have completed my bachelor's in Information Technology in April 2023.
-Currently undergoing my training program in Cognizant Technology Solutions in programming languages like Python,HTML,CSS.
-Looking for an entry level software developer or related position to learn and leverage new skills.
-</p>
-<h6 class="one">Experience :May 2023 - present</h6>
-<p class="extra">
-Programmer Analyst Trainee Intern at Cognizant Technology Solutions.
-<ul class ="para">
-<li>Currently undergoing my training in programming languages like Python, HTML & CSS.</li>
- <li>Completed HTML,CSS and JAVASCRIPT for web developers as a part of this Training.</li>
-<li>Creating small web pages containing forms using HTML and CSS.</li>
+  <div class="container">
+    <header class="header">
+      <!-- Header Section -->
+      <div class="currency-dropdown">
+        <button class="dropbtn">USD</button>
+      </div>
+      <div class="location-symbol">
+        <img src="location.png" alt="Location Symbol">
+      </div>
+      <div class="login-register">
+        <a href="#" class="login-button">Login</a>
+        <a href="#" class="register-button">Register</a>
+      </div>
+    </header>
+    <!-- Logo and Navigation Section -->
+    <div class="logo1">
+      <img class="big" src="logo.png" alt="Logo Image">
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Recipes</a></li>
+          <li><a href="#">OurStory</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+        <div class="icons">
+          <img src="search.svg" alt="Search Icon">
+          <img src="wishlist.svg" alt="Wishlist Icon">
+          <img src="bag.svg" alt="BSG Icon">
+        </div>
+      </nav>
+    </div>
 
-</ul>
-</p>
+    <div class="imagex">
+      <img src="prod.png" alt="Product Image">
+    </div>
+  </div>
+  
+  <div class="additional-text">
+    <p>Products(16)</p>
+  </div>
 
-<h6 class="one">Education :</h6>
-<ul class="para">
-<li>SRDF Vivekananda Vidyalaya-10th std-9.8CGPA <span class="right">2016-2017</span></li>
-<li>NSN school-12th std-86% <span class="right">2017-2018</span></li>
-<li>Sri Sairam Engineering College-BTECH/IT-8.6 CGPA <span class="right">2019-2023</span></li>
-</ul>
-<h6 class="one">Skills :</h6>
-<ul class="para">
-<li>Python with OOPS concept</li>
-<li>HTML & CSS</li>
-<li>Javascript basics</li>
-<li>C Programming</li>
-<li>Database and sql concepts</li>
-</ul>
-<h6 class="one">Project: PARKINSON'S DISEASE DETECTION</h6>
-<ul class="para">
-<li>This project aims to predict Parkinson's disease as early as possible using Machine Learning and Artificial Intelligence using image dataset.</li>
-<li>We trained Convolutional Neural Network (CNN) models on a dataset of spiral and wave drawings to differentiate between healthy individuals and those affected by Parkinson's Disease</li>
-<li>The Spiral Model achieved an accuracy of 98% while the Wave Model achieved an accuracy of 84%</li>
-</ul>
-<h6 class="one">Certifications :</h6>
-<ul class="para">
-<li>Introduction to HTML - Coursera</li>
-<li>HTML and CSS for web developers - Udemy</li>
-<li>Create your first python program - Coursera </li>
-<li>10 Material things every Engineer must know - Coursera</li>
-</ul>
-<h6 class="one">Strengths :</h6>
-<ul class="para">
-<li>Readiness to adapt and learn new things</li>
-<li>Active listening</li>
-<li>Strong coding and logics</li>
-<li>Empathy</li>
-<li>Creativity</li>
-</ul>
-<h6 class="one">Interests :</h6>
-<ul class="para">
-<li>Learning new programming languages</li>
-<li>App development</li>
-<li>Front End development</li>
-</ul>
-<h6 class="one">Languages :</h6>
-<ul class="para">
-<li>English</li>
-<li>Tamil</li>
-<li>Kannada</li>
-</ul>
+  <div class="filter-and-sort">
+    <!-- Filter and Sort Section -->
+    <div class="filter">
+      <button class="black-button">
+        <img src="filter.png" alt="Filter Icon">
+        Filter
+      </button>
+    </div>
+
+    <div class="separator1">
+      <div class="categories">
+        <img src="grid.png" alt="Categories Icon">
+      </div>
+    </div>
+    <div class="sort-dropdown">
+      <button class="dropbtn">Sort By: Alphabetically, A-Z &#9660;</button>
+    </div>
+  </div>
+
+  <div class="separator"></div>
+
+  <div class="product-container">
+    <!-- Product Container Section -->
+    <div class="product">
+      <img src="okazo_three.png" alt="Product 1">
+      <div class="product-info">
+        <p>OKAZU lovers set</p>
+        <h4>(230ml/12 jars) $ 135</h4>
+        <div class="rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+        <img src="chilimiso.png" alt="Product 2">
+        <div class="product-info">
+          <p>OKAZU CHILLI MISO - japanese</p>
+          <h4>$ 13.98</h4>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="miso_soup.png" alt="Product 3">
+        <div class="product-info">
+          <p>Instant Miso soup tasting set</p>
+          <h4>$ 19.95</h4>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="abom.png" alt="Product 4">
+        <div class="product-info">
+          <p>ABO matcha : Uji matcha organic</p>
+          <h4>$34.9</h4>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+	<div class="product-container">
+      <div class="product">
+        <img src="okazo_three.png" alt="Product 1">
+        <div class="product-info">
+          <p>OKAZU lovers set</p>
+          <h4>(230ml/12 jars) $ 135</h4>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="chilimiso.png" alt="Product 2">
+        <div class="product-info">
+          <p>OKAZU CHILLI MISO - japanese</p>
+          <h4>$ 13.98</h4>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="miso_soup.png" alt="Product 3">
+        <div class="product-info">
+          <p>Instant Miso soup tasting set</p>
+          <h4>$ 19.95</h4>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="abom.png" alt="Product 4">
+        <div class="product-info">
+          <p>ABO matcha : Uji matcha organic</p>
+          <h4>$34.9</h4>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+<div class="product-container">
+      <div class="product">
+        <img src="okazo_three.png" alt="Product 1">
+        <div class="product-info">
+          <p>OKAZU lovers set</p>
+          <h4>(230ml/12 jars) $ 135</h4>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="chilimiso.png" alt="Product 2">
+        <div class="product-info">
+          <p>OKAZU CHILLI MISO - japanese</p>
+          <h4>$ 13.98</h4>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="miso_soup.png" alt="Product 3">
+        <div class="product-info">
+          <p>Instant Miso soup tasting set</p>
+          <h4>$ 19.95</h4>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="abom.png" alt="Product 4">
+        <div class="product-info">
+          <p>ABO matcha : Uji matcha organic</p>
+          <h4>$34.9</h4>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+<div class="product-container">
+      <div class="product">
+        <img src="okazo_three.png" alt="Product 1">
+        <div class="product-info">
+          <p>OKAZU lovers set</p>
+          <h4>(230ml/12 jars) $ 135</h4>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="chilimiso.png" alt="Product 2">
+        <div class="product-info">
+          <p>OKAZU CHILLI MISO - japanese</p>
+          <h4>$ 13.98</h4>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="miso_soup.png" alt="Product 3">
+        <div class="product-info">
+          <p>Instant Miso soup tasting set</p>
+          <h4>$ 19.95</h4>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="abom.png" alt="Product 4">
+        <div class="product-info">
+          <p>ABO matcha : Uji matcha organic</p>
+          <h4>$34.9</h4>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+  <!-- Additional Content Section -->
+  <div class="link-containers">
+    <div class="vertical-links">
+      <a href="#">About Us</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Customer Service</a>
+      <a href="#">FAQs</a>
+      <a href="#">Site Map</a>
+    </div>
+    <div class="additional-vertical-links">
+      <a href="#">Terms of Service</a>
+      <a href="#">Refund Policy</a>
+      <a href="#">Press</a>
+    </div>
+    <div class = "visa">
+        <img src="visa.png">
+    </div>
+  </div>
+
+  <footer class="footer">
+    <!-- Footer Section -->
+    <div class="logo">
+      <a href="#"><img src="facebook.png" alt="Facebook"></a>
+      <a href="#"><img src="twitter.png" alt="Twitter"></a>
+      <a href="#"><img src="insta.png" alt="Instagram"></a>
+      <a href="#"><img src="youtube.png" alt="YouTube"></a>
+      <a href="#"><img src="pinterest.png" alt="Pinterest"></a>
+      <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
+      <div class="copyright">
+        &copy; 2021 Abokichi
+      </div>
+    </div>
+    
+  </footer>
 </body>
 </html>
